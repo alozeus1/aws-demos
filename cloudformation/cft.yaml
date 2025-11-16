@@ -18,7 +18,7 @@ Resources:
   StudentPortalBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: student-portal-frontend-demo-2025-15
+      BucketName: student-portal-frontend-demo-2025
       WebsiteConfiguration:
         IndexDocument: index.html
 
