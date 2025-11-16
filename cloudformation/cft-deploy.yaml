@@ -1,5 +1,7 @@
-version: 1
+schemaVersion: 1.0
 resources:
-  studentPortalStack:
-    template_file: cloudformation/cft.yaml
-    parameters: {}
+  StudentPortal:
+    type: AWS::CloudFormation::Stack
+    properties:
+      templateFile: cft.yaml
+      parameters: {}
