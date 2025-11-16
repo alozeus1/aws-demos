@@ -1,5 +1,5 @@
 version: 1
 resources:
   studentPortalStack:
-    template_file: cft.yaml
+    template_file: cloudformation/cft.yaml
     parameters: {}
