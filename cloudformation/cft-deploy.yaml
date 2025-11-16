@@ -3,5 +3,5 @@ resources:
   StudentPortal:
     type: AWS::CloudFormation::Stack
     properties:
-      templateFile: cft.yaml
+      templateFile: cloudformation/cft.yaml
       parameters: {}
