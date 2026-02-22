@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Web Forx Student Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #5E4BB6;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --border-color: #e5e7eb;
+            --bg-light: #f8fafc;
+            --bg-card: #ffffff;
+            --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.08);
+            --radius: 14px;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg-light);
+            color: var(--text-primary);
+            margin: 0;
+        }
+
+        .doc-header {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border-color);
+            padding: 16px 0;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .brand img {
+            height: 38px;
+            width: auto;
+        }
+
+        .doc-nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin-left: 18px;
+            font-weight: 500;
+        }
+
+        .doc-nav a:hover,
+        .doc-nav a.active {
+            color: var(--primary-color);
+        }
+
+        .doc-main {
+            padding: 48px 0 80px;
+        }
+
+        .doc-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            padding: 32px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .doc-card h1 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .doc-card .meta {
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+
+        .doc-card h2 {
+            font-size: 1.2rem;
+            margin-top: 26px;
+            margin-bottom: 10px;
+        }
+
+        .doc-card p,
+        .doc-card li {
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        .doc-card ul {
+            padding-left: 18px;
+        }
+
+        .back-link {
+            margin-top: 28px;
+        }
+
+        .footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-color);
+            padding: 24px 0;
+            margin-top: 40px;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        .footer-links a {
+            margin-right: 16px;
+            color: var(--text-secondary);
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="doc-header">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a href="index.html" class="brand">
+                <img src="images/school-logo.png" alt="Web Forx Student Portal">
+                <span>Web Forx Student Portal</span>
+            </a>
+            <nav class="doc-nav">
+                <a href="privacy.html" class="active">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="doc-main">
+        <div class="container">
+            <div class="doc-card">
+                <h1>Privacy Policy</h1>
+                <div class="meta">Last updated: 2026</div>
+
+                <p>
+                    This Privacy Policy describes how the Web Forx Student Portal collects, uses, and protects information when
+                    you interact with our site and services. It is intended as a general reference document and should be
+                    tailored to your organization before use in production.
+                </p>
+
+                <h2>Information We Collect</h2>
+                <ul>
+                    <li>Registration details submitted through our forms (e.g., name, email, student ID, department).</li>
+                    <li>Technical data such as browser type, device identifiers, and interaction logs for troubleshooting.</li>
+                    <li>Aggregated metrics that help us monitor system performance and reliability.</li>
+                </ul>
+
+                <h2>How We Use Information</h2>
+                <ul>
+                    <li>To create and maintain student records within the portal.</li>
+                    <li>To respond to support inquiries and improve platform usability.</li>
+                    <li>To safeguard the service, including detecting misuse or security concerns.</li>
+                </ul>
+
+                <h2>Your Choices</h2>
+                <p>
+                    You may request access to or deletion of your record by contacting our support team. Use of the site is
+                    voluntary, and you may discontinue use at any time. If you are using this project as a template, replace
+                    this section with your organization's specific instructions and contact details.
+                </p>
+
+                <h2>Data Protection</h2>
+                <p>
+                    We apply reasonable technical and organizational safeguards appropriate for a learning environment. For
+                    production use, ensure encryption at rest and in transit, apply least-privilege access, and maintain
+                    backups in accordance with your compliance requirements.
+                </p>
+
+                <h2>Contact</h2>
+                <p>
+                    If you have questions about this policy or would like to exercise a privacy request, please reach out via
+                    the contact options listed on our <a href="contact.html">Contact Us</a> page.
+                </p>
+
+                <div class="back-link">
+                    <a class="btn btn-outline-secondary" href="index.html">Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <div class="footer-text">
+                    &copy; 2026 Web Forx Student Portal. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Web Forx Student Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #5E4BB6;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --border-color: #e5e7eb;
+            --bg-light: #f8fafc;
+            --bg-card: #ffffff;
+            --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.08);
+            --radius: 14px;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg-light);
+            color: var(--text-primary);
+            margin: 0;
+        }
+
+        .doc-header {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border-color);
+            padding: 16px 0;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .brand img {
+            height: 38px;
+            width: auto;
+        }
+
+        .doc-nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin-left: 18px;
+            font-weight: 500;
+        }
+
+        .doc-nav a:hover,
+        .doc-nav a.active {
+            color: var(--primary-color);
+        }
+
+        .doc-main {
+            padding: 48px 0 80px;
+        }
+
+        .doc-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            padding: 32px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .doc-card h1 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .doc-card .meta {
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+
+        .doc-card h2 {
+            font-size: 1.2rem;
+            margin-top: 26px;
+            margin-bottom: 10px;
+        }
+
+        .doc-card p,
+        .doc-card li {
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        .doc-card ul {
+            padding-left: 18px;
+        }
+
+        .contact-methods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        .contact-card {
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 16px;
+            background: #fdfdff;
+        }
+
+        .back-link {
+            margin-top: 28px;
+        }
+
+        .footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-color);
+            padding: 24px 0;
+            margin-top: 40px;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        .footer-links a {
+            margin-right: 16px;
+            color: var(--text-secondary);
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="doc-header">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a href="index.html" class="brand">
+                <img src="images/school-logo.png" alt="Web Forx Student Portal">
+                <span>Web Forx Student Portal</span>
+            </a>
+            <nav class="doc-nav">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="contact.html" class="active">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="doc-main">
+        <div class="container">
+            <div class="doc-card">
+                <h1>Contact Us</h1>
+                <div class="meta">We are here to help</div>
+
+                <p>
+                    Have a question about the Web Forx Student Portal demo or need to report an issue? Choose any of the
+                    options below. Replace these placeholders with your organization's real contact details when deploying.
+                </p>
+
+                <div class="contact-methods">
+                    <div class="contact-card">
+                        <h2>Email</h2>
+                        <p>Send us a note at <a href="mailto:support@example.com">support@example.com</a> for general
+                            inquiries or privacy requests.</p>
+                    </div>
+                    <div class="contact-card">
+                        <h2>Support Desk</h2>
+                        <p>Track tickets and responses through your preferred help desk. Include your student ID for faster
+                            assistance.</p>
+                    </div>
+                    <div class="contact-card">
+                        <h2>Community</h2>
+                        <p>Join your team's internal chat or forum to collaborate on improvements to this demo.</p>
+                    </div>
+                </div>
+
+                <p class="mt-3">
+                    For production deployments, document your support hours, escalation paths, and expected response times.
+                </p>
+
+                <div class="back-link">
+                    <a class="btn btn-outline-secondary" href="index.html">Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <div class="footer-text">
+                    &copy; 2026 Web Forx Student Portal. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
